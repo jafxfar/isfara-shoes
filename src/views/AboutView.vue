@@ -1,5 +1,15 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <AboutUs />
 </template>
+
+<script>
+import AboutUs from '@/components/AboutUs.vue';
+export default {
+  components: {
+    AboutUs
+  },
+  mounted() {
+    window.scrollTo(0, 0);
+  }
+}
+</script>
